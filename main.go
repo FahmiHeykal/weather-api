@@ -35,7 +35,7 @@ func initDB() {
 	if err = db.Ping(); err != nil {
 		log.Fatal("Database tidak dapat diakses:", err)
 	}
-	fmt.Println("✅ Koneksi database sukses!")
+	fmt.Println("Koneksi database sukses!")
 }
 
 type WeatherResponse struct {
@@ -139,6 +139,6 @@ func main() {
 	r.GET("/weather", getWeatherData)
 	r.GET("/weather/fetch", getAndSaveWeather)
 
-	fmt.Println("🚀 Server berjalan di http://localhost:8080")
+	fmt.Println("Server berjalan di http://localhost:8080")
 	r.Run(":8080")
 }
