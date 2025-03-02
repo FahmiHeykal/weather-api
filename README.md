@@ -17,5 +17,5 @@ Weather API adalah proyek backend sederhana yang mengambil dan menyimpan data cu
 
 ### 1. Clone Repository
 ```sh
-git clone https://github.com/USERNAME/weather-api.git
+git clone https://github.com/FahmiHeykal/weather-api.git
 cd weather-api
